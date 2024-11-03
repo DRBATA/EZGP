@@ -1,12 +1,8 @@
-import React from 'react';
-import EasyGPLanding from './components/EasyGPLanding';
+import React from 'react'
+import EasyGPLanding from './components/landing/EasyGPLanding'
 
-function App() {
-  return (
-    <div>
-      <EasyGPLanding />
-    </div>
-  );
+const App = () => {
+  return <EasyGPLanding />
 }
 
-export default App;
+export default App

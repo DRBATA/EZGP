@@ -1,6 +1,6 @@
 import React from 'react';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../components/ui/tabs";
-import BaseModal from "../../../components/shared/BaseModal";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../ui/tabs";
+import BaseModal from "../../shared/BaseModal";
 
 interface TermsModalProps {
   isOpen: boolean;
