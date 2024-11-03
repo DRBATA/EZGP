@@ -2,9 +2,19 @@
   <!-- Teal rounded square background -->
   <rect width="32" height="32" fill="#40E0D0" rx="6" ry="6"/>
   
-  <!-- Golden Stethoscope - minimalist curved design -->
+  <!-- Golden Stethoscope - flowing curved design -->
   <path
-    d="M8 12 Q 8 8, 12 8 L 20 8 Q 24 8, 24 12 L 24 20 Q 24 24, 20 24 L 12 24 Q 8 24, 8 20 Z"
+    d="M6 12 Q 6 8, 10 8 L 22 8 Q 26 8, 26 12 Q 26 16, 22 16 L 10 16 Q 6 16, 6 12"
+    stroke="#FFD700"
+    stroke-width="4"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  
+  <!-- Additional curve for more flow -->
+  <path
+    d="M10 16 Q 14 16, 14 20 L 14 24"
     stroke="#FFD700"
     stroke-width="4"
     fill="none"
